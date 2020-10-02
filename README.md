@@ -3,8 +3,8 @@ This a simple program that will convert over any text file to ROT13
 If you dont know what ROT13 is, its "Rotate by 13 places" so you are able to encrpyt a text file of your choice
 You definitely shouldnt use this as any real type of security as it can be easily reversed by going to rot13.com and it will encrpyt or decipher it for you but here i have a
 program that will do it offline on your desktop. This a great little fun tool as a gag or joke to send over messages or just ruin someones essay and let them try and figure out how to decode it.
-## Problems
-The first part i had trouble with but eventually fixed was the loop to encrypt any letters but then adding the file i/o and connecting the translator to then output that onto the text file was easier.
+## The code
+The first part i had trouble with but eventually fixed was the loop to encrypt any letters but then adding the file i/o and connecting the translator to then output that onto the text file was easier. Other than that the code is pretty simple and acheives what is needs to do in a lightweight file so it is very portable. Which makes it practical if you want to throw it onto a flash drive and be a secret file you can hide within some random folders.
 ####
 char Rot13(char to_be_translated)
 {
